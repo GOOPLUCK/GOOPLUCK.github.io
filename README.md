@@ -1,0 +1,2 @@
+# GOOPLUCK.github.io
+проверка
