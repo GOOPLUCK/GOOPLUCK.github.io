@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--metatextblock-->
+  <title>sdgfsdf</title>
+  <meta name="description" content="Шаблон универсальной бизнес страницы" />
+  <meta property="og:url" content="http://project10501647.tilda.ws" />
+  <meta property="og:title" content="Универсальная бизнес страница" />
+  <meta property="og:description" content="Шаблон универсальной бизнес страницы" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://static.tildacdn.info/tild3934-6630-4538-b065-376233386438/-/resize/504x/k46jj04884l261015_2.jpg" />
+  <link rel="canonical" href="index.html">
+  <!--/metatextblock-->
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://ws.tildacdn.com">
+  <link rel="dns-prefetch" href="https://static.tildacdn.info">
+  <meta name="robots" content="nofollow" />
+  <link rel="shortcut icon" href="https://static.tildacdn.info/img/tildafavicon.ico" type="image/x-icon" />
+  <!-- Assets -->
+  <script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" async charset="utf-8"></script>
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/ws/project10501647/tilda-blocks-page54377297.min.css?t=1725913617" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/tilda-animation-2.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/tilda-cover-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/tilda-cards-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <link rel="stylesheet" href="https://static.tildacdn.info/css/fonts-tildasans.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+  <script nomodule src="https://static.tildacdn.info/js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    function t_onReady(func) {
+      if (document.readyState != 'loading') {
+        func();
+      } else {
+        document.addEventListener('DOMContentLoaded', func);
+      }
+    }
+
+    function t_onFuncLoad(funcName, okFunc, time) {
+      if (typeof window[funcName] === 'function') {
+        okFunc();
+      } else {
+        setTimeout(function() {
+          t_onFuncLoad(funcName, okFunc, time);
+        }, (time || 100));
+      }
+    }
+
+    function t_throttle(fn, threshhold, scope) {
+      return function() {
+        fn.apply(scope || this, arguments);
+      };
+    }
+  </script>
+  <script src="https://static.tildacdn.info/js/tilda-scripts-3.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/ws/project10501647/tilda-blocks-page54377297.min.js?t=1725913617" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-lazyload-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-animation-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-cover-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-cards-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-map-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script src="https://static.tildacdn.info/js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+  <script type="text/javascript">
+    (function() {
+      if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof(sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+        document.getElementsByTagName('head')[0].appendChild(style);
+
+        function t_setvisRecs() {
+          var alr = document.querySelectorAll('.t-records');
+          Array.prototype.forEach.call(alr, function(el) {
+            el.classList.add("t-records_animated");
+          });
+          setTimeout(function() {
+            Array.prototype.forEach.call(alr, function(el) {
+              el.classList.add("t-records_visible");
+            });
+            sessionStorage.setItem("visited", "y");
+          }, 400);
+        }
+        document.addEventListener('DOMContentLoaded', t_setvisRecs);
+      }
+    })();
+  </script>
+</head>
+
+<body class="t-body" style="margin:0;">
+  <!--allrecords-->
+  <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="10501647" data-tilda-page-id="54377297" data-tilda-formskey="1ea92e836d8f2b08c6dc84a810501647" data-tilda-cookie="no" data-tilda-lazy="yes" data-tilda-root-zone="com">
+    <div id="rec794056729" class="r t-rec" style=" " data-animationappear="off" data-record-type="205">
+      <!-- cover -->
+      <div class="t-cover" id="recorddiv794056729" bgimgfield="img" style="height:100vh;background-image:url('https://static.tildacdn.info/tild3934-6630-4538-b065-376233386438/-/resize/20x/k46jj04884l261015_2.jpg');">
+        <div class="t-cover__carrier" id="coverCarry794056729" data-content-cover-id="794056729" data-content-cover-bg="https://static.tildacdn.info/tild3934-6630-4538-b065-376233386438/k46jj04884l261015_2.jpg" data-display-changed="true" data-content-cover-height="100vh" data-content-cover-parallax="dynamic" style="height:100vh;background-attachment:scroll; " itemscope itemtype="http://schema.org/ImageObject">
+          <meta itemprop="image" content="https://static.tildacdn.info/tild3934-6630-4538-b065-376233386438/k46jj04884l261015_2.jpg">
+        </div>
+        <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));background-image: -o-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));background-image: linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#33000000', endColorstr='#33000000');"></div>
+        <div class="t-container">
+          <div class="t-width t-width_10" style="margin:0 auto;">
+            <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;">
+              <div class="t182">
+                <div data-hook-content="covercontent">
+                  <div class="t182__wrapper">
+                    <div class="t182__title t-title t-title_xl t-animate" data-animate-style="fadeinup" data-animate-group="yes" field="title">Сварочные работы любой сложности</div>
+                    <div class="t182__descr t-descr t-descr_lg t-animate" data-animate-style="fadeinup" data-animate-group="yes" field="descr">Точные и красивые решения для ваших идей. Профессиональный подход.</div>
+                    <div class="t182__buttons">
+                      <div class="t-btnwrapper t182__btnwrapper t-animate" data-animate-style="fadeinup" data-animate-group="yes">
+                        <a href="index.html#form" target="" class="t182__btn t-btn t-btn_md " style="color:#ffffff;background-color:#2971f5;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;" data-buttonfieldset="button">
+                          <table role="presentation" style="width:100%; height:100%;">
+                            <tr>
+                              <td data-field="buttontitle">Заказать сварку</td>
+                            </tr>
+                          </table>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- arrow -->
+        <div class="t-cover__arrow">
+          <div class="t-cover__arrow-wrapper t-cover__arrow-wrapper_animated">
+            <div class="t-cover__arrow_mobile">
+              <svg role="presentation" class="t-cover__arrow-svg" style="fill:#dbdbdb;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592" style="enable-background:new 0 0 38.417 18.592;">
+                <g>
+                  <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z" />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- arrow -->
+      </div>
+
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image/IMG-20240730-WA0020.jpeg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image/IMG-20240730-WA0022.jpeg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="image/IMG-20240802-WA0016.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+
+
+      <style>
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+        @media (hover: hover),
+        (min-width: 0\0) {
+          #rec794056729 .t-btn:not(.t-animate_no-hover):hover {
+            color: #2971f5 !important;
+            background-color: #ffffff !important;
+          }
+          #rec794056729 .t-btn:not(.t-animate_no-hover):focus-visible {
+            color: #2971f5 !important;
+            background-color: #ffffff !important;
+          }
+          #rec794056729 .t-btn:not(.t-animate_no-hover) {
+            transition-property: background-color, color, border-color, box-shadow;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+          }
+          #rec794056729 .t-btntext:not(.t-animate_no-hover):hover {
+            color: #2971f5 !important;
+          }
+          #rec794056729 .t-btntext:not(.t-animate_no-hover):focus-visible {
+            color: #2971f5 !important;
+          }
+        }
+      </style>
+      <style>
+        @media screen and (min-width: 900px) {
+          #rec794056729 .t182__title {
+            font-size: 58px;
+          }
+        }
+      </style>
+    </div>
+    <div id="rec794056730" class="r t-rec t-rec_pt_135 t-rec_pb_135" style="padding-top:135px;padding-bottom:135px; " data-record-type="482">
+      <!-- t482 -->
+      <div class="t482">
+        <div class="t-container t-align_left">
+          <div class="t-col t-col_8 t-prefix_2">
+            <div class="t482__title t-title t-title_xxs " field="title">Почему выбирают именно нас?</div>
+            <div class="t482__descr t-descr t-descr_md " field="descr">Мы предлагаем качественные сварочные работы любой сложности. Наши мастера имеют большой опыт и высокую квалификацию, а также постоянно совершенствуют свои навыки.</div>
+          </div>
+        </div>
+      </div>
+      <style>
+        #rec794056730 .t482__title {
+          font-weight: 300;
+        }
+        
+        @media screen and (min-width: 480px) {
+          #rec794056730 .t482__title {
+            font-size: 30px;
+            line-height: 1.35;
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          #rec794056730 .t482__title {
+            font-size: 20px;
+          }
+        }
+      </style>
+    </div>
+    <div id="rec794056731" class="r t-rec t-rec_pt_135 t-rec_pb_135" style="padding-top:135px;padding-bottom:135px;background-color:#ebebeb; " data-animationappear="off" data-record-type="846" data-bg-color="#ebebeb">
+      <!-- t846 -->
+      <div class="t846">
+        <div class="t-section__container t-container t-container_flex">
+          <div class="t-col t-col_12 ">
+            <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto" field="btitle">Сварочные работы любой сложности</div>
+            <div class="t-section__descr t-descr t-descr_xl t-align_center t-margin_auto" field="bdescr">Сварка сложных металлических скульптур, художественная и конструкционная сварка.</div>
+          </div>
+        </div>
+        <style>
+          .t-section__descr {
+            max-width: 560px;
+          }
+          
+          #rec794056731 .t-section__title {
+            margin-bottom: 40px;
+          }
+          
+          #rec794056731 .t-section__descr {
+            margin-bottom: 90px;
+          }
+          
+          @media screen and (max-width: 960px) {
+            #rec794056731 .t-section__title {
+              margin-bottom: 20px;
+            }
+            #rec794056731 .t-section__descr {
+              margin-bottom: 45px;
+            }
+          }
+        </style>
+        <style>
+          #rec794056731 .t-section__descr {
+            max-width: 882.1904907226562px;
+          }
+        </style>
+        <div class="t846__container t-card__container t-container">
+          <div class="t846__col t-item t-col t-col_8 t-prefix_2 t-item">
+            <div class="t-card__col t-card__col_withoutbtn">
+              <div class="t-cell t-valign_top"></div>
+              <div class="t846__textwrapper t-cell t-valign_top" style="">
+                <div class="t-card__descr t-descr t-descr_sm" field="li_descr__4457479191190">1. Художественная сварка. Создание уникальных металлических конструкций.</div>
+              </div>
+            </div>
+          </div>
+          <div class="t-clear t846__separator" style="margin-bottom:0px;"></div>
+          <div class="t846__col t-item t-col t-col_8 t-prefix_2 t-item">
+            <div class="t-card__col t-card__col_withoutbtn">
+              <div class="t-cell t-valign_top"></div>
+              <div class="t846__textwrapper t-cell t-valign_top" style="">
+                <div class="t-card__descr t-descr t-descr_sm" field="li_descr__4457479191191">2. Конструкционная сварка. Прочные соединения для строительных работ.</div>
+              </div>
+            </div>
+          </div>
+          <div class="t-clear t846__separator" style="margin-bottom:0px;"></div>
+          <div class="t846__col t-item t-col t-col_8 t-prefix_2 t-item">
+            <div class="t-card__col t-card__col_withoutbtn">
+              <div class="t-cell t-valign_top"></div>
+              <div class="t846__textwrapper t-cell t-valign_top" style="">
+                <div class="t-card__descr t-descr t-descr_sm" field="li_descr__4457479191192">3. Ремонтные работы. Восстановление сломанных металлических изделий.</div>
+              </div>
+            </div>
+          </div>
+          <div class="t-clear t846__separator" style="margin-bottom:0px;"></div>
+          <div class="t846__col t-item t-col t-col_8 t-prefix_2 t-item">
+            <div class="t-card__col t-card__col_withoutbtn">
+              <div class="t-cell t-valign_top"></div>
+              <div class="t846__textwrapper t-cell t-valign_top" style="">
+                <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1715665694165">4. Изготовление металлоконструкций. Ворота, заборы, лестницы и другие конструкции.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="t-clear t846__separator" style="margin-bottom:0px;"></div>
+          <div class="t846__col t-item t-col t-col_8 t-prefix_2 t-item">
+            <div class="t-card__col t-card__col_withoutbtn">
+              <div class="t-cell t-valign_top"></div>
+              <div class="t846__textwrapper t-cell t-valign_top" style="">
+                <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1715665697385">5. Консультация специалиста. Оценка объёма работ и выбор метода сварки.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        t_onReady(function() {
+          t_onFuncLoad('t846_init', function() {
+            t846_init('794056731');
+          });
+        });
+      </script>
+    </div>
+    <div id="rec794056732" class="r t-rec" style=" " data-record-type="215">
+      <a name="form" style="font-size:0;"></a>
+    </div>
+<!-- t678 -->
+
+        <style>
+          .t-section__descr {
+            max-width: 560px;
+          }
+          
+          #rec794056733 .t-section__title {
+            margin-bottom: 40px;
+          }
+          
+          #rec794056733 .t-section__descr {
+            margin-bottom: 75px;
+          }
+          
+          @media screen and (max-width: 960px) {
+            #rec794056733 .t-section__title {
+              margin-bottom: 20px;
+            }
+            #rec794056733 .t-section__descr {
+              margin-bottom: 45px;
+            }
+          }
+        </style>
+
+      </div>
+    </div>
+    <div id="rec794056734" class="r t-rec" style=" " data-animationappear="off" data-record-type="570">
+      <!-- t570 -->
+      <div class="t570">
+        <div class="t-width t-width_100 t570__mainblock" style="margin:0 auto; background-color:#292929;">
+          <div class="t570__col t570__col_text" style="background-color:#292929;">
+            <div class="t570__contentbox" style="background-color:#292929; height:80vh;">
+              <div class="t570__contentwrapper t570__padding_lg">
+                <div class="t570__title t-heading t-heading_sm" field="title">Свяжитесь с нами</div>
+                <div class="t570__descr t-descr t-descr_xl" field="descr">+7 (XXX) XXX-XX-XX
+                  <br />weld@weld.ru</div>
+                <div class="t570__text t-text t-text_sm" field="text">Мы находимся по адресу:
+                  <br />г. Москва, ул. Сварщиков, 34.</div>
+                <div class="t-sociallinks">
+                  <ul role="list" class="t-sociallinks__wrapper" aria-label="Соц. сети">
+                    <!-- new soclinks -->
+                    <li class="t-sociallinks__item t-sociallinks__item_twitter">
+                      <a href="index.html" target="_blank" rel="nofollow" aria-label="twitter" style="width: 30px; height: 30px;">
+                        <svg class="t-sociallinks__svg" role="presentation" xmlns="http://www.w3.org/2000/svg" width=30px height=30px viewBox="0 0 48 48">
+                          <g clip-path="url(#clip0_3697_102)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48ZM33.3482 14L25.9027 22.4686H25.9023L34 34H28.0445L22.5915 26.2348L15.7644 34H14L21.8082 25.1193L14 14H19.9555L25.119 21.3532L31.5838 14H33.3482ZM22.695 24.1101L23.4861 25.2173V25.2177L28.8746 32.7594H31.5847L24.9813 23.5172L24.1902 22.4099L19.1103 15.2997H16.4002L22.695 24.1101Z" fill="#ffffff" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_3697_102">
+                              <rect width="48" height="48" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </a>
+                    </li>&nbsp;
+                    <li class="t-sociallinks__item t-sociallinks__item_vk">
+                      <a href="index.html" target="_blank" rel="nofollow" aria-label="vk" style="width: 30px; height: 30px;">
+                        <svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#ffffff" />
+                        </svg>
+                      </a>
+                    </li>&nbsp;
+                    <li class="t-sociallinks__item t-sociallinks__item_telegram">
+                      <a href="index.html" target="_blank" rel="nofollow" aria-label="telegram" style="width: 30px; height: 30px;">
+                        <svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z" fill="#ffffff" />
+                        </svg>
+                      </a>
+                    </li>
+                    <!-- /new soclinks -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-map-lazyload t570__map t570__col" data-maplazy-load="false">
+            <div class="t-map" id="separateMap794056734" data-map-language="" data-map-x="-74.005941" data-map-y="40.7127837" data-map-zoom="14" data-map-title="Свяжитесь с нами" data-map-mode="bw_dark" style="width:100%; position: relative; height:80vh;" data-map-color="#ffffff" data-map-style='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]'></div>
+            <script type="text/javascript">
+              var arMapMarkers794056734 = [{
+                title: "Romania",
+                descr: "",
+                lat: "45.663308",
+                lng: "25.595454",
+                color: null,
+                url: null,
+                isOpen: false,
+                isHidden: false,
+                offset: null,
+              }, ];
+              t_onReady(function() {
+                t_map_lazyload_add_map();
+                window.addEventListener('scroll', t_throttle(t_map_lazyload_add_map, 300));
+
+                function t_map_lazyload_add_map() {
+                  var windowHeight = window.innerHeight;
+                  var scrollDiffHeigth = 700;
+                  var rec = document.getElementById('rec' + 794056734);
+                  if (!rec) return;
+                  var map = rec.querySelector('.t-map-lazyload');
+                  if (!map) return;
+                  var blockTop = map.getBoundingClientRect().top + window.pageYOffset;
+                  if (window.pageYOffset > blockTop - windowHeight - scrollDiffHeigth) {
+                    if (map.getAttribute('data-maplazy-load') === 'false') {
+                      map.setAttribute('data-maplazy-load', 'true');
+                      t_onFuncLoad('t_appendYandexMap', function() {
+                        t_appendYandexMap("794056734", "");
+                      });
+                    }
+                  }
+                }
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+      <script>
+        t_onReady(function() {
+          var rec = document.getElementById('rec794056734');
+          if (!rec) return;
+          t_onFuncLoad('t570_init', function() {
+            t570_init('794056734');
+          });
+          var wrapperBlock = rec.querySelector('.t570');
+          if (wrapperBlock) {
+            wrapperBlock.addEventListener('displayChanged', function() {
+              t570_setMapHeight('794056734');
+            });
+          }
+        });
+      </script>
+      <style>
+        @media screen and (min-width: 900px) {
+          #rec794056734 .t570__title {
+            font-size: 52px;
+          }
+        }
+      </style>
+    </div>
+  </div>
+  <!--/allrecords-->
+  
+  <!-- Stat -->
+  <script type="text/javascript">
+    if (!window.mainTracker) {
+      window.mainTracker = 'tilda';
+    }
+    window.tildastatcookie = 'no';
+    setTimeout(function() {
+      (function(d, w, k, o, g) {
+        var n = d.getElementsByTagName(o)[0],
+          s = d.createElement(o),
+          f = function() {
+            n.parentNode.insertBefore(s, n);
+          };
+        s.type = "text/javascript";
+        s.async = true;
+        s.key = k;
+        s.id = "tildastatscript";
+        s.src = g;
+        if (w.opera == "[object Opera]") {
+          d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+          f();
+        }
+      })(document, window, '3fef57a399b0d51bdd107653b7e367c3', 'script', 'https://static.tildacdn.info/js/tilda-stat-1.0.min.js');
+    }, 2000);
+  </script>
+</body>
+
+</html>
